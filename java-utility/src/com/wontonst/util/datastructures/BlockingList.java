@@ -42,17 +42,18 @@ public class BlockingList<T> implements List<T> {
     public void push(T o) {
         this.data.add(o);
     }
-/*
-    public T popInstant() throws Exception {
-        acquire();
-    }
+    /*
+     public T popInstant() throws Exception {
+     acquire();
+     }
 
-    public T popBlocking() {
-        acquire();
+     public T popBlocking() {
+     acquire();
 
-        release();
-    }
-*/
+     release();
+     }
+     */
+
     @Override
     public int size() {
         acquire();
