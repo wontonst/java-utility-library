@@ -4,3 +4,6 @@
 *.jar
 *.war
 *.ear
+/java-utility/nbproject/private/
+/java-utility/build/
+/java-utility/dist/
